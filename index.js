@@ -23,7 +23,11 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  return makeInt(a.toString())).toEqual(n)
+  return parseInt(n, 10);
+}
+ 
+ /* 
+  makeInt(a.toString())).toEqual(n)
   })
 
   it('assumes base 10', function() {
@@ -44,3 +48,4 @@ describe('preserveDecimal(n)', function() {
     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
   })
 })
+*/
